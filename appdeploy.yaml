@@ -12,6 +12,7 @@ metadata:
   labels:
     app: my-app
 spec:
+  type: LoadBalancer
   selector:
     app: my-app
   ports:
