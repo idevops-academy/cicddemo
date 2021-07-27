@@ -50,7 +50,7 @@ it('test book not found', async done => {
     done()
 })
 
-//test health end point
+//test health end point service
 it('test health point', async done => {
     const response = await request.get('/health')
     expect(response.status).toBe(200)
